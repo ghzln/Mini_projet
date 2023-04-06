@@ -1,0 +1,57 @@
+body {
+    background-color: #F0BC68;
+    display: flex;
+    justify-content: center;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+}
+
+form {
+    border: 5px solid #f1f1f1;
+    margin-top: 50px;
+}
+
+.hr {
+    border: 10px #dda491;
+}
+
+input[type=text], input[type=email] {
+    width: 100%;
+    padding: 16px 8px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: rgb(239, 212, 203);
+    color: white;
+    padding: 14px 0;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+}
+
+h1 {
+    text-align:center;
+    font-size:18;
+    color: white;
+}
+
+p {
+    font-style: italic;
+    color: gray;
+    margin-left: 25px;
+}
+
+    
+button:hover {
+    background-color: #dda491;
+    
+}
+  
+.formcontainer {
+    text-align: left;
+    margin: 24px 50px 12px;
+}
