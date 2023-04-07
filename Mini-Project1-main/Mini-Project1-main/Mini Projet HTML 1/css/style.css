@@ -4,13 +4,14 @@ body {
 }
 
 .header img {
+  display: flex;
   float: left;
   width: 250px;
   height: 105px;
   border: 2px solid black;
   text-align: left;
 }
-  
+
 .menu {
   display: flex;
   justify-content: flex-end; 
@@ -25,19 +26,19 @@ body {
   margin: 0;
   padding: 0;
 }
-  
+
 .menu li {
   display: block;
   margin-bottom: 10px;
 }
-  
+
 .menu a {
   color: #fff;
   display: block;
   padding: 50px;
   text-decoration: none;
 }
-  
+
 .menu a:hover {
   background-color: #F0BC68;
 }
@@ -59,20 +60,26 @@ body {
 }
 
 article {
-  clear: both;
   margin-top: 10px;
 }
 
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
 section {
-  width: 200px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   border: 2px solid #F0BC68;
   margin: 5px;
   padding: 5px;
-  float: left;
+  width: 190px;
   background-color: aliceblue;
-  position: relative;
-  left: 300px;
-  margin-bottom: 100px;
   text-align: justify;
 }
 
@@ -89,7 +96,6 @@ section h2 {
   text-align: center;
 }
 
-
 .Aga img, .Mar img, .Ess img, .Tan img {
   width: 185px;
   height: 185px;
@@ -98,8 +104,12 @@ section h2 {
 }
 
 .footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   position: absolute;
-  top: 1200px;
+  top: 1224px;
   left: 50px;
   width: 100%;
   text-align: center;
@@ -107,14 +117,15 @@ section h2 {
 }
 
 .footer ul {
+  display: flex;
+  flex-direction: row;
   list-style: none;
   margin: 0;
   padding: 0;
-  display: inline-block;
 }
 
 .footer li {
-  display: inline-block;
+  display: flex;
   margin-right: 20px;
 }
 
@@ -124,6 +135,9 @@ section h2 {
   height: 50px;
 }
 
+
 .header img, .slider, article, section, .footer {
   margin: 10px;
 }
+
+
